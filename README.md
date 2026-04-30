@@ -10,19 +10,13 @@ data transaksi e-commerce Brasil dari Oktober 2016 hingga Oktober 2018.
 ```
 submission/
 ├── dashboard.py                        ← Streamlit dashboard
-├── notebook_analisis_ecommerce.ipynb   ← Notebook analisis lengkap
 ├── requirements.txt                    ← Dependensi Python
 ├── README.md                           ← Panduan ini
-└── data/                               ← Letakkan semua CSV di sini
-    ├── orders_dataset.csv
-    ├── order_items_dataset.csv
-    ├── order_payments_dataset.csv
-    ├── order_reviews_dataset.csv
-    ├── customers_dataset.csv
-    ├── products_dataset.csv
-    ├── sellers_dataset.csv
-    ├── geolocation_dataset.csv
-    └── product_category_name_translation.csv
+└── main_data.csv
+└── rfm_data.csv
+
+                             
+    
 ```
 
 ---
@@ -65,18 +59,7 @@ Dashboard akan terbuka otomatis di browser pada `http://localhost:8501`
 
 ---
 
-## 📓 Cara Menjalankan Notebook
 
-```bash
-jupyter notebook notebook_analisis_ecommerce.ipynb
-```
-
-Pastikan path dataset di dalam notebook sudah sesuai:
-```python
-BASE_PATH = 'data/'  # Sesuaikan dengan lokasi folder data Anda
-```
-
----
 
 ## 🔍 Ringkasan Temuan
 
